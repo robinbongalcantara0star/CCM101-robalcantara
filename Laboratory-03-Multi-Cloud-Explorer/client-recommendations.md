@@ -3,24 +3,24 @@
 ## Checkpoint 4 – Cloud Platform Recommendation Challenge
 
 ### Client A – Startup Company
-- **Recommended Platform:** Amazon Web Services (AWS)
-- **Justification:** AWS is optimal for startups due to its extensive pay-as-you-go pricing model and rapid auto-scaling capabilities. It offers robust startup support programs like AWS Activate to help lower initial expenses while allowing seamless future scaling.
-- **Services:** Amazon EC2, Amazon S3, Amazon DynamoDB.
+* **Recommended Platform:** Amazon Web Services (AWS)
+* **Justification:** AWS is ideal for startups due to its flexible pay-as-you-go pricing model, fast auto-scaling capabilities, and extensive support programs like AWS Activate. It allows startups to launch quickly with minimal initial infrastructure costs while ensuring seamless scalability as the user base grows rapidly.
+* **Services to Use:** Amazon EC2, Amazon S3, Amazon DynamoDB
 
 ### Client B – University
-- **Recommended Platform:** Microsoft Azure
-- **Justification:** Since the university already relies heavily on Windows Server, Microsoft 365, and Active Directory, migrating to Azure ensures maximum compatibility. It allows seamless identity extension through Microsoft Entra ID without major re-architecting.
-- **Services:** Azure Virtual Machines, Microsoft Entra ID, Azure SQL Database.
+* **Recommended Platform:** Microsoft Azure
+* **Justification:** Microsoft Azure seamlessly integrates with the university's existing infrastructure, which relies heavily on Windows Server, Microsoft 365, and Active Directory. Migrating to Azure enables single sign-on via Microsoft Entra ID and preserves existing enterprise licenses, making it the most cost-effective and efficient transition.
+* **Services to Use:** Azure Virtual Machines, Microsoft Entra ID (Azure AD), Azure Blob Storage
 
 ### Client C – AI Research Company
-- **Recommended Platform:** Google Cloud Platform (GCP)
-- **Justification:** GCP leads the industry in high-performance computing, AI, and Machine Learning capabilities. It provides specialized AI hardware such as TPUs alongside Vertex AI tools to support intensive research workloads efficiently.
-- **Services:** Vertex AI, Compute Engine (with GPU instances), BigQuery.
+* **Recommended Platform:** Google Cloud Platform (GCP)
+* **Justification:** GCP is the industry leader in high-performance computing, artificial intelligence, and machine learning infrastructure. It offers custom TPU hardware and cutting-edge software ecosystems like Vertex AI and TensorFlow, making it perfectly suited for training complex AI models efficiently.
+* **Services to Use:** Google Compute Engine, Vertex AI, Google Kubernetes Engine (GKE)
 
 ### Client D – Global E-Commerce Company
-- **Recommended Platform:** Amazon Web Services (AWS)
-- **Justification:** AWS is globally recognized for high availability, reliable global infrastructure, and automatic scaling capabilities. It easily manages sudden traffic spikes during sales events while maintaining low latency worldwide.
-- **Services:** Amazon EC2 Auto Scaling, Amazon CloudFront, Amazon Aurora.
+* **Recommended Platform:** Amazon Web Services (AWS)
+* **Justification:** AWS boasts the most extensive global network of cloud regions and availability zones, making it the top choice for high-availability e-commerce platforms. Its managed load balancing, multi-region database replication, and global content delivery network ensure minimal latency and zero downtime during high-traffic sales events worldwide.
+* **Services to Use:** Amazon CloudFront, Amazon Aurora, Application Load Balancer
 
 ---
 
@@ -28,9 +28,9 @@
 
 | Business Requirement | Recommended Platform | Justification |
 | :--- | :--- | :--- |
-| **Startup Company** | AWS | Highly scalable with low entry costs and flexible pay-as-you-go options. |
-| **Enterprise Organization** | AWS / Azure | Both provide extensive compliance certifications, enterprise support, and hybrid models. |
-| **Microsoft Environment** | Microsoft Azure | Provides native integration with Active Directory and Windows software. |
-| **AI / Machine Learning** | GCP | Offers industry-leading AI infrastructure, Tensor Processing Units (TPUs), and BigQuery. |
-| **Kubernetes Deployment** | GCP | Native support for Kubernetes via Google Kubernetes Engine (GKE). |
-| **Global Web Application** | AWS | Global infrastructure coverage paired with CloudFront CDN and auto-scaling. |
+| **Startup Company** | AWS | Cost-effective scaling and comprehensive startup credit programs. |
+| **Enterprise Organization** | AWS / Azure | Enterprise-grade security, global coverage, and broad compliance support. |
+| **Microsoft Environment** | Microsoft Azure | Direct compatibility with Active Directory, Windows Server, and M365. |
+| **AI / Machine Learning** | Google Cloud Platform | Advanced AI tools, TPU hardware, and managed data platforms like Vertex AI. |
+| **Kubernetes Deployment** | Google Cloud Platform | Native Kubernetes support via GKE (developed originally by Google). |
+| **Global Web Application** | AWS | Unmatched global infrastructure, low latency, and robust auto-scaling. |
